@@ -36,7 +36,7 @@ namespace Q400Calculator.Controllers
             _smsSender = smsSender;
             _logger = loggerFactory.CreateLogger<AccountController>();
         }
-        private int x;
+        private int x, y;
         //
         // GET: /Account/Login
         [HttpGet]
